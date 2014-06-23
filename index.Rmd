@@ -1,0 +1,78 @@
+---
+
+title       : Time Differential
+subtitle    : The Next Big Web Application
+author      : Michael Maddeford
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : [bootstrap, quiz, shiny, interactive]            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+--- {bg: ghostwhite}
+
+## How Often Have You Wistfully Wished...
+
+
+that there was a way to find out:
+* how many days there were between two days?  
+* How many hours till your birthday?  
+* How many seconds till your team was knocked out of the World Cup?
+
+<hr noshade size=4>
+
+Sure, you could write some tedious R code:
+
+```{r}
+start_date <- Sys.Date(); end_date <- start_date + 14
+paste('There are', as.character(end_date-start_date, units="days"), 'days between the two.')
+```
+
+
+But... what if there were a web app that COULD DO THAT FOR YOU?
+
+
+--- .class #id 
+
+## Introducing... TIME DIFFERENTIAL!
+
+<iframe width="2400" height="600" frameborder="0" src = 'https://mkmadd.shinyapps.io/final_project/'></iframe>
+
+--- .class #id 
+
+## Feature Highlights
+
+<hr noshade size=4>
+
+1.  **Simple to Use**
+
+    Select a starting date. Select an ending date. Select desired units.  That's it.
+2.  **Unambiguous**
+
+    It says straight out how many days, hours, minutes or seconds there are.  
+    No guesswork required.
+3.  **Uncluttered**
+
+    Without any extraneous features or utility.
+4.  **Cool**
+
+    Has a very neat theme.
+
+
+
+--- &radio .class #id 
+
+## How Excited Are YOU to Use Time Differential?
+
+1.  Absurdly excited
+2.  Fairly excited
+3.  _WHEN CAN I GET MY HANDS ON THIS APP?!!!_
+4.  Look, my hands are shaking!
+
+*** .hint
+
+You may think any of these answers will work, but there's only one that fully  
+captures the excitement you feel, right?
+
+*** .explanation
+Just as soon as we raise $4,000,000 in initial funding!
